@@ -1,4 +1,4 @@
-USE ShopDB
+USE ShopDB;
 
 CREATE USER 'webappuser'@'%' IDENTIFIED BY 'P@ssw0rd';
 GRANT UPDATE, DELETE, SELECT, INSERT ON ShopDB.* TO 'webappuser'@'%';
